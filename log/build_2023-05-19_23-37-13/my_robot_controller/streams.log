@@ -1,0 +1,20 @@
+[1.560s] Invoking command in '/home/www/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/www/ros2_ws/build/my_robot_controller/prefix_override:/home/www/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/www/ros2_ws/build/my_robot_controller/build install --record /home/www/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[2.072s] running egg_info
+[2.074s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[2.076s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[2.076s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[2.076s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[2.077s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[2.080s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.081s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.081s] running build
+[2.081s] running build_py
+[2.082s] running install
+[2.082s] running install_lib
+[2.084s] running install_data
+[2.085s] running install_egg_info
+[2.089s] removing '/home/www/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[2.091s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/www/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[2.092s] running install_scripts
+[2.134s] writing list of installed files to '/home/www/ros2_ws/build/my_robot_controller/install.log'
+[2.195s] Invoked command in '/home/www/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/www/ros2_ws/build/my_robot_controller/prefix_override:/home/www/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/www/ros2_ws/build/my_robot_controller/build install --record /home/www/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
