@@ -1,0 +1,49 @@
+[0.427s] Invoking command in '/home/wayming/build/my_robot_controller': PYTHONPATH=/home/wayming/build/my_robot_controller/prefix_override:/home/wayming/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wayming/build/my_robot_controller/build
+[0.603s] running develop
+[0.603s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.604s]   warnings.warn(
+[0.604s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.604s]   warnings.warn(
+[0.641s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[0.641s]   warnings.warn(
+[0.641s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.641s]   warnings.warn(
+[0.708s] Removing /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[0.726s] Invoked command in '/home/wayming/build/my_robot_controller' returned '0': PYTHONPATH=/home/wayming/build/my_robot_controller/prefix_override:/home/wayming/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/wayming/build/my_robot_controller/build
+[0.728s] Invoking command in '/home/wayming/src/my_robot_controller': PYTHONPATH=/home/wayming/build/my_robot_controller/prefix_override:/home/wayming/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/wayming/build/my_robot_controller/build install --record /home/wayming/build/my_robot_controller/install.log --single-version-externally-managed
+[0.903s] running egg_info
+[0.903s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[0.903s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[0.904s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[0.904s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[0.904s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[0.905s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.906s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[0.906s] running build
+[0.906s] running build_py
+[0.906s] copying my_robot_controller/my_first_node.py -> /home/wayming/build/my_robot_controller/build/lib/my_robot_controller
+[0.907s] running install
+[0.907s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.907s]   warnings.warn(
+[0.907s] running install_lib
+[0.908s] creating /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.908s] copying /home/wayming/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.908s] copying /home/wayming/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.908s] copying /home/wayming/build/my_robot_controller/build/lib/my_robot_controller/pose_subscriber.py -> /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.909s] copying /home/wayming/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.909s] copying /home/wayming/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[0.909s] byte-compiling /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[0.909s] byte-compiling /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.909s] byte-compiling /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[0.909s] byte-compiling /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[0.909s] byte-compiling /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.910s] running install_data
+[0.910s] running install_egg_info
+[0.912s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/wayming/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[0.912s] running install_scripts
+[0.929s] Installing draw_circle script to /home/wayming/install/my_robot_controller/lib/my_robot_controller
+[0.929s] Installing pose_subscriber script to /home/wayming/install/my_robot_controller/lib/my_robot_controller
+[0.929s] Installing test_node script to /home/wayming/install/my_robot_controller/lib/my_robot_controller
+[0.929s] Installing turtle_controller script to /home/wayming/install/my_robot_controller/lib/my_robot_controller
+[0.929s] writing list of installed files to '/home/wayming/build/my_robot_controller/install.log'
+[0.949s] Invoked command in '/home/wayming/src/my_robot_controller' returned '0': PYTHONPATH=/home/wayming/build/my_robot_controller/prefix_override:/home/wayming/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/wayming/build/my_robot_controller/build install --record /home/wayming/build/my_robot_controller/install.log --single-version-externally-managed
