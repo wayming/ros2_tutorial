@@ -44,7 +44,7 @@ RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> 
 RUN echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
 RUN echo "#export RMW_IMPLEMENTATION=rmw_cyclonedds_pcpp" >> ~/.bashrc
 
-RUN echo "export AEROSTACK2_PATH=$HOME/aerostack2_ws/src/aerostack2" >> ~/.bashrc
-RUN echo "source $AEROSTACK2_PATH/as2_cli/setup_env.bash" >> ~/.bashrc
+RUN echo "export AEROSTACK2_PATH=$HOME/src/aerostack2" >> ~/.bashrc
+RUN echo "source $HOME/src/aerostack2/as2_cli/setup_env.bash" >> ~/.bashrc
 
 CMD ["/bin/bash"]
