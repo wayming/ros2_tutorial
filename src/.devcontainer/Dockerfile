@@ -32,6 +32,7 @@ RUN apt-get install python3-colcon-common-extensions -y
 RUN apt-get install ros-geometry-msgs -y
 RUN apt install ros-humble-navigation2 ros-humble-nav2-bringup -y
 RUN apt install ros-humble-turtlebot3* -y
+RUN apt install ros-humble-rmw-cyclonedds-cpp -y
 RUN apt-get install vim -y
 RUN pip3 install setuptools==58.2.0
 
@@ -41,4 +42,9 @@ RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN echo "source /home/wayming/install/setup.bash" >> ~/.bashrc
 RUN echo "source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash" >> ~/.bashrc
 RUN echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+RUN echo "#export RMW_IMPLEMENTATION=rmw_cyclonedds_pcpp" >> ~/.bashrc
+
+RUN echo "export AEROSTACK2_PATH=$HOME/aerostack2_ws/src/aerostack2" >> ~/.bashrc
+RUN echo "source $AEROSTACK2_PATH/as2_cli/setup_env.bash" >> ~/.bashrc
+
 CMD ["/bin/bash"]
