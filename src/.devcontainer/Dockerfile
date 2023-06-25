@@ -33,8 +33,10 @@ RUN apt-get install ros-geometry-msgs -y
 RUN apt install ros-humble-navigation2 ros-humble-nav2-bringup -y
 RUN apt install ros-humble-turtlebot3* -y
 RUN apt install ros-humble-rmw-cyclonedds-cpp -y
+RUN apt install tmux tmuxinator iputils-ping -y
 RUN apt-get install vim -y
 RUN pip3 install setuptools==58.2.0
+RUN pip3 install PySimpleGUI
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
@@ -46,5 +48,4 @@ RUN echo "#export RMW_IMPLEMENTATION=rmw_cyclonedds_pcpp" >> ~/.bashrc
 
 RUN echo "export AEROSTACK2_PATH=$HOME/src/aerostack2" >> ~/.bashrc
 RUN echo "source $HOME/src/aerostack2/as2_cli/setup_env.bash" >> ~/.bashrc
-
 CMD ["/bin/bash"]
