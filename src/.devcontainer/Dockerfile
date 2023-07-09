@@ -44,9 +44,10 @@ RUN pip3 install PySimpleGUI
 RUN sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
 RUN wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 RUN apt-get update -y
+RUN apt-get upgrade -y
 RUN apt-get install ignition-fortress -y
 RUN apt-get install ros-humble-turtlebot4-simulator -y
-
+# RUN apt-get install libignition-cmake2-dev
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME

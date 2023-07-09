@@ -29,6 +29,7 @@
         "ROS_DOMAIN_ID": "42"
     },
     "runArgs": [
+        "--tty",
         "--net=host",
         "--runtime=nvidia",
         "-e", "DISPLAY=${env:DISPLAY}",
