@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# rm -rf src/aerostack2
-# git clone https://github.com/aerostack2/aerostack2.git src/aerostack2
-# git clone https://github.com/aerostack2/project_gazebo src/aerostack2/projects/gazebo
+rm -rf src/aerostack2
+git clone https://github.com/wayming/aerostack2.git src/aerostack2
+git clone https://github.com/wayming/project_gazebo.git src/aerostack2/projects/gazebo
 
 rm -rf $HOME/.ros2.bash
 echo "source /opt/ros/humble/setup.bash" >> $HOME/.ros2.bash
